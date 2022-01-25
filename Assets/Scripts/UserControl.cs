@@ -12,6 +12,7 @@ public class UserControl : MonoBehaviour
         }
     }
 
+    // ABSTRACTION
     private void HandleSelection() {
         var ray = GameCamera.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
